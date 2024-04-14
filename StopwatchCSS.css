@@ -1,0 +1,45 @@
+body{
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#stopWatch-Container{
+  border: 2px solid black;
+  width: 300px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 4px 4px 5px black,
+  -4px -4px 5px black;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+p{
+  font-size: 3em;
+}
+
+button{
+  min-width: 100px;
+  font-size: 1.5em;
+  margin: 5px;
+  border: none;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
